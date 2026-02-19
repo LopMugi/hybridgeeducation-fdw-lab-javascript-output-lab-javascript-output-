@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <div style="text-align: center;">
+    <h1>Demostración de output con JavaScript</h1>
+    <button onclick="alert('Luis Antonio Lopez Valenzuela')">Mostrar alerta</button>
+
+
+    <p style="border: 2px solid black; width:12%; padding:0.7%; margin: 0 auto;" id="parrafo"></p>
+    <button onclick="actualizarTexto()">Cambiar texto</button>
+
+    <p>Dele un vistazo a la consola con F12 :3</p>
+    <script>
+        function actualizarTexto() {
+            document.getElementById("parrafo").innerHTML = 
+                "¡Texto actualizado con Javascript!";
+        }
+        console.log("Página cargada :3");
+    </script>
+    
+    </div>
+
+</body>
+</html>
